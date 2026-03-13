@@ -17,6 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
+      <Analytics/>
       <body
         className={`${inter.className} bg-[#0f172a] antialiased selection:bg-indigo-500/30`}
       >
